@@ -117,7 +117,7 @@ while(True):
                        E: Exit\n\n'
                        )
   except:
-    print('Wrong input. Please enter a number ...')#Check what choice was entered and act accordingly
+    print('Wrong input. Please enter a letter ...')#Check what choice was entered and act accordingly
     
   if option == 'C':
     startTimer = time.time()
@@ -142,7 +142,7 @@ while(True):
   elif option == 'E':
     exit()
   else:
-    print('Invalid option. Please enter a number between 1 and 4.')
+    print('Invalid option. Please enter a given letter.')
 
 #startTimer = time.time()
 #createMySQL("000","09/30/2016","23:25:00","09/30/2016","23:25:00","09/30/2016","236","DANGEROUS WEAPONS","782","WEAPONS"," POSSESSION, ETC","COMPLETED","MISDEMEANOR","N.Y. TRANSIT POLICE","BRONX,42","","TRANSIT - NYC SUBWAY","","","1015308","244373","40.837376359","-73.887760929","\"(40.837376359, -73.887760929)\"", cursor, cnx)
